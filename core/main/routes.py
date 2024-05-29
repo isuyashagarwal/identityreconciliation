@@ -4,6 +4,10 @@ from core.models import *
 
 main = Blueprint('main', __name__)
 
+@main.route('/home',methods=['GET'])
+def home():
+    return render_template("index.html")
+
 @main.route('/identity',methods=['POST'])
 @cross_origin()
 def identity():
