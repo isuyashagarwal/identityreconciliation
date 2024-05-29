@@ -1,0 +1,26 @@
+"customerData" = {
+    "email": "mcfly@hillvalley.edu",
+    "phoneNumber": "123456"
+},
+"customerData2" = {
+    "email": "lorraine@hillvalley.edu",
+    "phoneNumber": "123456"
+},
+"customerData3" = {
+    "email": "george@hillvalley.edu",
+    "phoneNumber": "919191"
+},
+"customerData4" = {
+    "phoneNumber": "123456"
+},
+"customerData5" = {
+    "email": "lorraine@hillvalley.edu"
+},
+"customerData6" = {
+    "email": "biffsucks@hillvalley.edu",
+    "phoneNumber": "717171"
+},
+"customerData7" = {
+    "email": "george@hillvalley.edu",
+    "phoneNumber": "717171"
+}
