@@ -8,6 +8,25 @@ main = Blueprint('main', __name__)
 def home():
     return render_template("index.html")
 
+@main.route('/all-contacts',methods=['GET','POST'])
+@cross_origin()
+def all_contacts():
+    contacts = Contact.query.all()
+    response = {}
+    for contact in contacts:
+        response[f'Customer {contact.id}'] = {
+            "primary_id": contact.id,
+            "phoneNumber": contact.phoneNumber,
+            "email": contact.email,
+            "linkedId": contact.linkedId,
+            "linkPrecedence": contact.linkPrecedence,
+            "createdAt": contact.createdAt,
+            "updatedAt": contact.updatedAt,
+            "deletedAt": contact.deletedAt
+        }
+    
+    return jsonify(response)
+
 @main.route('/identity',methods=['POST'])
 @cross_origin()
 def identity():
