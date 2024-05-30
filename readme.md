@@ -17,9 +17,16 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-/identity endpoint allows POST requests.
+- You can install this repository and run it on your local machine.
+
+- You can hit the same endpoints on our cloud hosted app at https://bitespeed.suyashagarwal.com
 
 Open testcases.json and try hitting the endpoint with the sample test cases or create your own.
+
+## Endpoints
+
+- /identity - allows POST request and returns related contacts for the query
+- /all-contacts - fetches all related contacts for the query
 
 ## Problem Understanding
 
