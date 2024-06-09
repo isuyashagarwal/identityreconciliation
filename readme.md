@@ -23,9 +23,11 @@ pip3 install -r requirements.txt
 
 Open testcases.json and try hitting the endpoint with the sample test cases or create your own.
 
+![alt text](https://suyashagarwal.com/wp-content/uploads/2024/06/Screenshot-2024-06-09-at-1.18.46 PM.png)
+
 ## Endpoints
 
-- /identity - allows POST request and returns related contacts for the query
+- /identity - allows POST request and returns related contacts for the query. This endpoint only receives data in **RAW JSON**.
 - /all-contacts - fetches all related contacts for the query
 
 ## Problem Understanding
